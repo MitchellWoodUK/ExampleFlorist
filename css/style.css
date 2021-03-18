@@ -5,7 +5,7 @@
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 90%;
+    background-image: cross-fade(opacity : 80%);
 }
 
 
