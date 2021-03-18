@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&family=Handlee&display=swap');
+#section-1{
+    background-image: url(../Images/Flower_Image_1.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 90%;
+}
+
+
+#section-2{
+    background-color: #EDF259;
+}
+
+
+#section-3{
+    background-color: #DA54A9;
+}
+
+
+#section-4{
+    background-color: #D80606;
+}
+.heading-main{
+    font-family: Handlee;
+    font-size: 20vh;
+    color: #7B293F;
+}
+
+.sub-heading-main{
+    font-family: Calligraffitti;
+    font-size: 10vh;
+    color: black;
+}
