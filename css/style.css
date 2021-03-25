@@ -1,9 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Calligraffitti&family=Handlee&display=swap');
+*{
+    font-family: Handlee;
+}
+.carousel-item{
+    height: 100vh;
+    object-fit: cover;
+}
 .navbar-brand{
     font-family: Handlee;
     font-size: 2vw;
     margin-left: 1.5vw;
+    margin-right: 1.5vw;
 }
 .nav-item{
     font-size: 1vw;
@@ -17,12 +25,12 @@
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: cross-fade(opacity : 80%);
+
 }
 
 
 #section-2{
-    background-color: #EDF259;
+    background-color: #9C9286;
 }
 
 
@@ -32,7 +40,7 @@
 
 
 #section-4{
-    background-color: #D80606;
+    background-color: #9C9286;
 }
 .heading-main{
     font-family: Handlee;
