@@ -1,5 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Calligraffitti&family=Handlee&display=swap');
+.navbar-brand{
+    font-family: Handlee;
+    font-size: 2vw;
+    margin-left: 1.5vw;
+}
+.nav-item{
+    font-size: 1vw;
+    margin-left: 5vw;
+    font-family: Calligraffitti;
+
+
+}
 #section-1{
     background-image: url(../Images/Flower_Image_1.jpg);
     background-position: top;
