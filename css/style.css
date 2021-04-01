@@ -40,16 +40,21 @@
 
 
 #section-4{
+    padding-top: 25vh;
     background-color: #9C9286;
 }
 .heading-main{
     font-family: Handlee;
     font-size: 20vh;
     color: #7B293F;
+    padding-top: 50vh;
 }
 
 .sub-heading-main{
     font-family: Calligraffitti;
     font-size: 10vh;
     color: black;
+}
+.section{
+    height: 100vh;
 }
