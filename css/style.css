@@ -7,6 +7,9 @@
     height: 100vh;
     object-fit: cover;
 }
+.navbar{
+
+}
 .navbar-brand{
     font-family: Handlee;
     font-size: 2vw;
@@ -21,7 +24,7 @@
 
 }
 #section-1{
-    background-image: url(../Images/Flower_Image_1.jpg);
+    background-image: url(../Images/Flower3.jpg);
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -31,30 +34,53 @@
 
 #section-2{
     background-color: #9C9286;
+
 }
 
 
 #section-3{
+    padding-top: 10vh;
     background-color: #DA54A9;
 }
 
 
 #section-4{
-    padding-top: 25vh;
+    padding-top: 15vh;
     background-color: #9C9286;
 }
+
 .heading-main{
-    font-family: Handlee;
+    font-family: Handlee, bold;
     font-size: 20vh;
     color: #7B293F;
     padding-top: 50vh;
 }
 
+@media only screen
+and (max-device-width: 1000px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    .heading-main{
+        font-family: Handlee, bold;
+        font-size: 7vh;
+        color: #7B293F;
+        padding-top: 50vh;
+    }
+}
+
 .sub-heading-main{
-    font-family: Calligraffitti;
+    font-family: Calligraffitti, bold;
     font-size: 10vh;
     color: black;
 }
+@media only screen
+and (max-device-width: 1000px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    .sub-heading-main{
+        font-family: Calligraffitti, bold;
+        font-size: 7vh;
+        color: black;
+    }
+}
 .section{
-    height: 100vh;
+    min-height: 100vh;
 }
